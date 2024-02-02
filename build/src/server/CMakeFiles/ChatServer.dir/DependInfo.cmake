@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/klchen/cppProject/IMProject/src/server/chatserver.cpp" "/home/klchen/cppProject/IMProject/build/src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o"
+  "/home/klchen/cppProject/IMProject/src/server/chatservice.cpp" "/home/klchen/cppProject/IMProject/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
   "/home/klchen/cppProject/IMProject/src/server/main.cpp" "/home/klchen/cppProject/IMProject/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -13,6 +14,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../include/server"
+  "../thirdparty"
   )
 
 # Targets to which this target links.

@@ -1,5 +1,6 @@
 #include "chatserver.hpp"
-#include "../../thirdparty/json.hpp"
+#include "json.hpp"
+#include "chatservice.hpp"
 
 #include <functional>
 using namespace std;
@@ -33,16 +34,18 @@ void ChatServer::onConnection(const TcpConnectionPtr &)
 {
 }
 // 上报读写事件相关信息的回调函数
-void ChatServer::onMessage(const TcpConnectionPtr &,
+void ChatServer::onMessage(const TcpConnectionPtr &conn,
                            Buffer *buffer,
-                           Timestamp)
+                           Timestamp time)
 {
     string buf = buffer->retrieveAllAsString();
     // 数据反序列化
     json js = json::parse(buf);
     // 通过js["msgid"]获取 =》 业务handler =》 conn js time
-    // 达到的目的，完全解耦网络模块代码和业务模块的代码
-    
+    // 达到的目的，完全解耦网络模块代码和业务模块的代码   
+    auto msgHandler = ChatService::get_instance().getHandler(js["msgid"].get<int>());
+    // 回调消息绑定好的事件处理器，来执行相应的业务处理
+    msgHandler(conn, js, time);
 
 
 }

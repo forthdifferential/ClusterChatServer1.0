@@ -43,6 +43,12 @@
 				"file" : 1,
 				"line" : 12,
 				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 2
 			}
 		]
 	},
@@ -64,13 +70,18 @@
 				{
 					"backtrace" : 4,
 					"path" : "/home/klchen/cppProject/IMProject/include/server"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/klchen/cppProject/IMProject/thirdparty"
 				}
 			],
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -116,7 +127,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -126,6 +138,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/server/chatserver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/server/chatservice.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
