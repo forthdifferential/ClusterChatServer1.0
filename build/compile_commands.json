@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/klchen/cppProject/IMProject/build/src/server",
+  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server  -g -g   -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/klchen/cppProject/IMProject/src/server/chatserver.cpp",
+  "file": "/home/klchen/cppProject/IMProject/src/server/chatserver.cpp"
+},
+{
+  "directory": "/home/klchen/cppProject/IMProject/build/src/server",
+  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server  -g -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/klchen/cppProject/IMProject/src/server/main.cpp",
+  "file": "/home/klchen/cppProject/IMProject/src/server/main.cpp"
+}
+]
