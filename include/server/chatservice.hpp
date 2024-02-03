@@ -22,8 +22,7 @@ private:
     
 public:
     // 获取单例
-    static ChatService& get_instance(); 
-    ~ChatService();
+    static ChatService& get_instance();
     // 处理登录业务
     void login(const TcpConnectionPtr& conn, json& js, Timestamp time);
     // 处理注册业务
