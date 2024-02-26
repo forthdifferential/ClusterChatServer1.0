@@ -1,4 +1,5 @@
 #include "chatservice.hpp"
+#include "user.hpp"
 #include "public.hpp"
 #include <muduo/base/Logging.h>
 
@@ -34,12 +35,35 @@ MsgHandler ChatService::getHandler(int msgid)
 }
 
 // 处理登录业务
+// 把业务层和数据层分离 采用DAO设计模式，对数据的访问和操作封装在DAO类中，业务逻辑层关注数据处理而不关注数据存储的细节
+// 数据层 用的ORM，对象关系映射，面向对象的方式来操作数据库  
 void ChatService::login(const TcpConnectionPtr &conn, json &js, Timestamp time)
 {
     LOG_INFO << "do login service !";
 }
-// 处理注册业务
+// 处理注册业务 name password
 void ChatService::reg(const TcpConnectionPtr &conn, json &js, Timestamp time)
 {
     LOG_INFO << "do reg service !";
+    string name = js["name"];
+    string pwd = js["password"];
+
+    User user;
+    user.setName(name);
+    user.setPwd(pwd);
+    bool state = _userModel.insert(user);
+    if(state){
+        // 注册成功
+        json response;
+        response["msgid"] = REG_MSG_ACK;
+        response["errno"] = 1;
+        response["id"] = user.getId();
+        conn->send(response.dump());
+    } else{
+        // 注册失败
+        json response;
+        response["msgid"] = REG_MSG_ACK;
+        response["errno"] = -1;
+        conn->send(response.dump());
+    }
 }

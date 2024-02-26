@@ -6,5 +6,5 @@ CXX_FLAGS = -g -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/thirdparty 
+CXX_INCLUDES = -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/thirdparty 
 
