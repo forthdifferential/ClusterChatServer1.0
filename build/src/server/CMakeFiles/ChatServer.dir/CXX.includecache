@@ -12,9 +12,19 @@ mysql/mysql.h
 string
 -
 
-/home/klchen/cppProject/IMProject/src/server/db/db.cpp
+../include/server/user.hpp
+string
+-
+
+../include/server/usermodel.hpp
+user.hpp
+../include/server/user.hpp
+
+/home/klchen/cppProject/IMProject/src/server/usermodel.cpp
+usermodel.hpp
+/home/klchen/cppProject/IMProject/src/server/usermodel.hpp
 db.h
-/home/klchen/cppProject/IMProject/src/server/db/db.h
-muduo/base/Logging.h
+/home/klchen/cppProject/IMProject/src/server/db.h
+iostream
 -
 
