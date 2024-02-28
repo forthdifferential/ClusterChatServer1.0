@@ -30,8 +30,13 @@ void ChatServer::start()
 }
 
 // 上报连接相关信息的回调
-void ChatServer::onConnection(const TcpConnectionPtr &)
+void ChatServer::onConnection(const TcpConnectionPtr &conn)
 {
+    // 客户端断开连接
+    if (!conn->connected()){
+        ChatService::get_instance().clientCloseException(conn);
+        conn->shutdown();
+    }
 }
 // 上报读写事件相关信息的回调函数
 void ChatServer::onMessage(const TcpConnectionPtr &conn,

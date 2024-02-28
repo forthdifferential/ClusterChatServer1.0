@@ -16,6 +16,11 @@
 },
 {
   "directory": "/home/klchen/cppProject/IMProject/build/src/server",
+  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/offlinemessagemodel.cpp.o -c /home/klchen/cppProject/IMProject/src/server/offlinemessagemodel.cpp",
+  "file": "/home/klchen/cppProject/IMProject/src/server/offlinemessagemodel.cpp"
+},
+{
+  "directory": "/home/klchen/cppProject/IMProject/build/src/server",
   "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/usermodel.cpp.o -c /home/klchen/cppProject/IMProject/src/server/usermodel.cpp",
   "file": "/home/klchen/cppProject/IMProject/src/server/usermodel.cpp"
 },
