@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../include/public.hpp
+
 ../include/server/chatservice.hpp
 muduo/net/TcpConnection.h
 -
@@ -19,24 +21,52 @@ usermodel.hpp
 ../include/server/usermodel.hpp
 offlinemessagemodel.hpp
 ../include/server/offlinemessagemodel.hpp
+friendmodel.hpp
+../include/server/friendmodel.hpp
+groupmodel.hpp
+../include/server/groupmodel.hpp
 ../../thirdparty/json.hpp
 ../thirdparty/json.hpp
 
-../include/server/offlinemessagemodel.hpp
+../include/server/model/friendmodel.hpp
+user.hpp
+../include/server/model/user.hpp
+vector
+-
+
+../include/server/model/group.hpp
+string
+-
+vector
+-
+groupuser.hpp
+../include/server/model/groupuser.hpp
+
+../include/server/model/groupmodel.hpp
+string
+-
+vector
+-
+group.hpp
+../include/server/model/group.hpp
+
+../include/server/model/groupuser.hpp
+user.hpp
+../include/server/model/user.hpp
+
+../include/server/model/offlinemessagemodel.hpp
 string
 -
 vector
 -
 
-../include/server/public.hpp
-
-../include/server/user.hpp
+../include/server/model/user.hpp
 string
 -
 
-../include/server/usermodel.hpp
+../include/server/model/usermodel.hpp
 user.hpp
-../include/server/user.hpp
+../include/server/model/user.hpp
 
 ../thirdparty/json.hpp
 algorithm
