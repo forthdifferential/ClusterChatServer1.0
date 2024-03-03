@@ -350,10 +350,10 @@ void showCurrentUserData()
     {
         for (Group &group : g_currentUserGroupList)
         {
-            cout << group.getId() << " " << group.getName() << " " << group.getDesc() << endl;
+            cout << "goup:" << group.getId() << " " << group.getName() << " " << group.getDesc() << endl;
             for (GroupUser &user : group.getUsers())
             {
-                cout << user.getId() << " " << user.getName() << " " << user.getState()
+                cout << "- gourpUser:"<< user.getId() << " " << user.getName() << " " << user.getState()
                      << " " << user.getRole() << endl;
             }
         }
@@ -416,6 +416,7 @@ void mainMenu(int clientfd)
         {
             command = commandbuf.substr(0, idx);
         }
+          // cout << "command:"<< command << endl;
         auto it = commandHandlerMap.find(command);
         if (it == commandHandlerMap.end())
         {
@@ -525,6 +526,8 @@ void addgroup(int clientfd, string str)
     }
 }
 // "groupchat" command handler   groupid:message
+// bug- 离线消息存储中文失败
+// json里有字段是中文，然后把整个jison存入导数据库的string类型字段中 ，产生出错
 void groupchat(int clientfd, string str)
 {
     int idx = str.find(":");

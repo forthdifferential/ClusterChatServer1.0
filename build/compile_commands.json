@@ -1,47 +1,52 @@
 [
 {
   "directory": "/home/klchen/cppProject/IMProject/build/src/server",
-  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/klchen/cppProject/IMProject/src/server/chatserver.cpp",
+  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/include/server/redis -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/klchen/cppProject/IMProject/src/server/chatserver.cpp",
   "file": "/home/klchen/cppProject/IMProject/src/server/chatserver.cpp"
 },
 {
   "directory": "/home/klchen/cppProject/IMProject/build/src/server",
-  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/klchen/cppProject/IMProject/src/server/chatservice.cpp",
+  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/include/server/redis -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/klchen/cppProject/IMProject/src/server/chatservice.cpp",
   "file": "/home/klchen/cppProject/IMProject/src/server/chatservice.cpp"
 },
 {
   "directory": "/home/klchen/cppProject/IMProject/build/src/server",
-  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/klchen/cppProject/IMProject/src/server/main.cpp",
+  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/include/server/redis -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/klchen/cppProject/IMProject/src/server/main.cpp",
   "file": "/home/klchen/cppProject/IMProject/src/server/main.cpp"
 },
 {
   "directory": "/home/klchen/cppProject/IMProject/build/src/server",
-  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /home/klchen/cppProject/IMProject/src/server/db/db.cpp",
+  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/include/server/redis -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /home/klchen/cppProject/IMProject/src/server/db/db.cpp",
   "file": "/home/klchen/cppProject/IMProject/src/server/db/db.cpp"
 },
 {
   "directory": "/home/klchen/cppProject/IMProject/build/src/server",
-  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o -c /home/klchen/cppProject/IMProject/src/server/model/friendmodel.cpp",
+  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/include/server/redis -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o -c /home/klchen/cppProject/IMProject/src/server/model/friendmodel.cpp",
   "file": "/home/klchen/cppProject/IMProject/src/server/model/friendmodel.cpp"
 },
 {
   "directory": "/home/klchen/cppProject/IMProject/build/src/server",
-  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o -c /home/klchen/cppProject/IMProject/src/server/model/groupmodel.cpp",
+  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/include/server/redis -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o -c /home/klchen/cppProject/IMProject/src/server/model/groupmodel.cpp",
   "file": "/home/klchen/cppProject/IMProject/src/server/model/groupmodel.cpp"
 },
 {
   "directory": "/home/klchen/cppProject/IMProject/build/src/server",
-  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o -c /home/klchen/cppProject/IMProject/src/server/model/offlinemessagemodel.cpp",
+  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/include/server/redis -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o -c /home/klchen/cppProject/IMProject/src/server/model/offlinemessagemodel.cpp",
   "file": "/home/klchen/cppProject/IMProject/src/server/model/offlinemessagemodel.cpp"
 },
 {
   "directory": "/home/klchen/cppProject/IMProject/build/src/server",
-  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/usermodel.cpp.o -c /home/klchen/cppProject/IMProject/src/server/model/usermodel.cpp",
+  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/include/server/redis -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/usermodel.cpp.o -c /home/klchen/cppProject/IMProject/src/server/model/usermodel.cpp",
   "file": "/home/klchen/cppProject/IMProject/src/server/model/usermodel.cpp"
 },
 {
+  "directory": "/home/klchen/cppProject/IMProject/build/src/server",
+  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/include/server/redis -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/redis/redis.cpp.o -c /home/klchen/cppProject/IMProject/src/server/redis/redis.cpp",
+  "file": "/home/klchen/cppProject/IMProject/src/server/redis/redis.cpp"
+},
+{
   "directory": "/home/klchen/cppProject/IMProject/build/src/client",
-  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatClient.dir/main.cpp.o -c /home/klchen/cppProject/IMProject/src/client/main.cpp",
+  "command": "/usr/bin/g++   -I/home/klchen/cppProject/IMProject/include -I/home/klchen/cppProject/IMProject/include/server -I/home/klchen/cppProject/IMProject/include/server/db -I/home/klchen/cppProject/IMProject/include/server/model -I/home/klchen/cppProject/IMProject/include/server/redis -I/home/klchen/cppProject/IMProject/thirdparty  -g -g   -o CMakeFiles/ChatClient.dir/main.cpp.o -c /home/klchen/cppProject/IMProject/src/client/main.cpp",
   "file": "/home/klchen/cppProject/IMProject/src/client/main.cpp"
 }
 ]

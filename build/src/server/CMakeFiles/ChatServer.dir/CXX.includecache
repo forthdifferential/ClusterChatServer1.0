@@ -25,6 +25,8 @@ friendmodel.hpp
 ../include/server/friendmodel.hpp
 groupmodel.hpp
 ../include/server/groupmodel.hpp
+redis.hpp
+../include/server/redis.hpp
 ../../thirdparty/json.hpp
 ../thirdparty/json.hpp
 
@@ -67,6 +69,14 @@ string
 ../include/server/model/usermodel.hpp
 user.hpp
 ../include/server/model/user.hpp
+
+../include/server/redis/redis.hpp
+hiredis/hiredis.h
+-
+thread
+-
+functional
+-
 
 ../thirdparty/json.hpp
 algorithm
